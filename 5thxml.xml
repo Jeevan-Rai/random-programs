@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="a.css"?>
+<student_info>
+    <h1>Student Information</h1>
+    <h2>Student 1</h2>
+    <usn>4KV19CS007</usn>
+    <name>Anwitha K</name>
+    <col>KVG</col>
+    <branch>CSE</branch>
+    <year>2019</year>
+    <email>anwitha@gmail.com</email>
+
+    <h2>Student 2</h2>
+    <usn>4KV19CS006</usn>
+    <name>Anusha</name>
+    <col>KVG</col>
+    <branch>CSE</branch>
+    <year>2019</year>
+    <email>anusha@gmail.com</email>
+
+    <h2>Student 3</h2>
+    <usn>4KV19CS013</usn>
+    <name>Bhanupriya</name>
+    <col>KVG</col>
+    <branch>CSE</branch>
+    <year>2019</year>
+    <email>bhanupriya@gmail.com</email>
+</student_info>
