@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>javascript growing shrinking and growing</title>
+<style>
+p{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+</style>
+<script>
+var fs=5,t1;
+function start()
+{
+t1=setInterval("incr()",100);
+}
+function incr()
+{
+fs=fs+1;
+t.innerHTML="TEXTGROWING:"+fs+"pt";
+t.setAttribute('style', "font-size: " + fs + "px; color: red");
+if(fs>50)
+{
+clearTimeout(t1);
+alert("fontsize reached 50pt.text will now shrink");
+t1=setInterval("decr()",100);
+}}
+function decr()
+{
+fs=fs-1;
+t.innerHTML="TEXTSHRINKING:"+fs+"pt";
+t.setAttribute('style', "font-size: " + fs + "px; color: blue");
+if(fs==5)
+{
+clearTimeout(t1);
+}}
+</script>
+</head>
+<body bgcolor="white" onload="start()">
+<center>
+<p id="t"></p>
+</center>
+</body>
+</html>
