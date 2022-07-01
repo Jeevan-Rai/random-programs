@@ -1,0 +1,29 @@
+h1{
+    color:red;font-size:40px;
+  }
+h2{
+    display:block;margin-left:20px;color:brown;font-size:30px;background-color:lavender;
+  }
+usn{
+    display:block;color:blue;margin-left:40px;font-size:20px;
+  }
+
+name{
+    display:block;color:blue;margin-left:40px;font-size:20px;
+  }
+
+col{
+    display:block;color:blue;margin-left:40px;font-size:20px;
+  }
+
+branch{
+    display:block;color:blue;margin-left:40px;font-size:20px;
+  }
+
+year{
+    display:block;color:blue;margin-left:40px;font-size:20px;
+  } 
+
+email{
+    display:block;color:blue;margin-left:40px;font-size:20px;
+     }
