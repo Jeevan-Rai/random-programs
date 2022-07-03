@@ -76,7 +76,7 @@ void main(int argc,char ** argv)
 	glutInit(&argc,argv); 
 	glutInitDisplayMode(GLUT_SINGLE|GLUT_DEPTH); 
 	glutInitWindowSize(600,600); 
-	glutCreateWindow("Teapot : C Tathva"); 
+	glutCreateWindow("Teapot :"); 
 	init(); 
 	glutDisplayFunc(display); 
 	glEnable(GL_DEPTH_TEST); 
