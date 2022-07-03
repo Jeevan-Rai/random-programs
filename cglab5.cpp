@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<GL/glut.h>
+#include<glut.h>
 float xmin=50,ymin=50,xmax=100,ymax=100;
 float xvmin=200,yvmin=200,xvmax=400,yvmax=400;
 int RIGHT=8,LEFT=2,TOP=4,BOTTOM=1;

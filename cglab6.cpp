@@ -1,5 +1,5 @@
 #include<stdio.h> 
-#include<GL/glut.h> 
+#include<glut.h> 
 void init() 
 { 
 	glMatrixMode(GL_PROJECTION); 

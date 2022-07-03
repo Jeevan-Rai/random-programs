@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<GL/glut.h>
+#include<glut.h>
 float v[][3]={{-1,-0.5,0},{1,-0.5,0},{0,1,0},{0,0,1}};
 int n;
 void triangle(float *p,float *q,float *r)

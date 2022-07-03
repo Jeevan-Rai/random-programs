@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<GL/glut.h>
+#include<glut.h>
 float house[5][2]={{200,100},{400,100},{300,300}};
 float h=200,k=100,theta;
 void drawtriangle()
